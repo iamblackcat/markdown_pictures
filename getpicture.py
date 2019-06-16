@@ -3,6 +3,7 @@
 import requests
 import pyperclip
 import sys
+import time
 
 #print(sys.argv[1])
 current_time = time.time()
