@@ -29,5 +29,7 @@ def getPicture(url):
 
 url = sys.argv[1]
 getPicture(url)
-address = "https://raw.githubusercontent.com/iamblackcat/markdown_pictures/master/%d.%s" % (current_time,url[-3:])	
-pyperclip.copy(address)
+address = "https://raw.githubusercontent.com/iamblackcat/markdown_pictures/master/%d.%s" % (current_time,url[-3:])
+#print(address)
+paste_address = "![]("+address+")"	
+pyperclip.copy(paste_address)
