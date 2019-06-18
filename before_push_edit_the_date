@@ -1,0 +1,4 @@
+git status
+git add *
+git commit -m '6/18'
+git push -u origin master
