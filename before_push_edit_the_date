@@ -1,4 +1,4 @@
 git status
 git add *
-git commit -m '6/27'
+git commit -m '6/28'
 git push -u origin master
